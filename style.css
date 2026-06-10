@@ -1,0 +1,142 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f7f7f7;
+}
+
+/* Header */
+
+.header{
+    background:white;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 30px;
+    box-shadow:0 2px 5px rgba(0,0,0,0.1);
+    flex-wrap:wrap;
+}
+
+.logo h2{
+    color:#ce190c;
+}
+
+.search-box{
+    display:flex;
+    width:45%;
+}
+
+.search-box input{
+    width:100%;
+    padding:12px;
+    border:1px solid #ccc;
+    border-radius:25px 0 0 25px;
+    outline:none;
+}
+
+.search-box button{
+    border:none;
+    background:#f1641e;
+    color:white;
+    padding:12px 20px;
+    border-radius:0 25px 25px 0;
+    cursor:pointer;
+}
+
+.header-links{
+    display:flex;
+    gap:15px;
+}
+
+.header-links a{
+    text-decoration:none;
+    color:#333;
+    font-weight:bold;
+}
+
+.header-links a:hover{
+    color:#f1641e;
+}
+
+/* Hero */
+
+.hero{
+    height:350px;
+    background:linear-gradient(to right,#0d5c63,#44a1a0);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    color:white;
+}
+
+.hero h1{
+    font-size:40px;
+    margin-bottom:10px;
+}
+
+.hero p{
+    margin-bottom:20px;
+}
+
+.hero button{
+    padding:12px 25px;
+    border:none;
+    border-radius:25px;
+    cursor:pointer;
+}
+
+/* Categories */
+
+.categories,
+.products{
+    padding:40px;
+}
+
+.categories h2,
+.products h2{
+    margin-bottom:20px;
+}
+
+.category-container,
+.product-container{
+    display:flex;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.category-card,
+.product-card{
+    width:250px;
+    background:white;
+    border-radius:10px;
+    overflow:hidden;
+    box-shadow:0 2px 8px rgba(0,0,0,0.1);
+}
+
+.category-card img,
+.product-card img{
+    width:100%;
+    height:180px;
+    object-fit:cover;
+}
+
+.category-card h3,
+.product-card h3,
+.product-card p{
+    padding:10px;
+}
+
+/* Footer */
+
+footer{
+    background:#222;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:30px;
+}
